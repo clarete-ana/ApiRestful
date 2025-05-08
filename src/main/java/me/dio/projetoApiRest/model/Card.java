@@ -14,6 +14,8 @@ public class Card {
     @Column(name= "available_limit",scale = 13, precision = 2)
    private BigDecimal cardLimit;
 
+    public Card(){}
+
     public Card(String cardNumber, BigDecimal cardLimit) {
         this.cardNumber = cardNumber;
         this.cardLimit = cardLimit;

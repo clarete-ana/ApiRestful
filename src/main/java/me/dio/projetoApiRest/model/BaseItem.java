@@ -13,6 +13,8 @@ public abstract class BaseItem {
     private String featureIcon;
     private String description;
 
+    public BaseItem(){}
+
     public BaseItem(String icon, String description) {
         this.featureIcon = icon;
         this.description = description;

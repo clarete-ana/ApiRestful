@@ -21,13 +21,7 @@ public class User {
     @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
     private List<News> news;
 
-    public User(String name, Account account, List<Feature> features, Card card, List<News> news) {
-        this.name = name;
-        this.account = account;
-        this.features = features;
-        this.card = card;
-        this.news = news;
-    }
+    public User(){}
 
     public String getName() {
         return name;

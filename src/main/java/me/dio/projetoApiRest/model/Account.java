@@ -17,6 +17,7 @@ public class Account {
     @Column(name = "additional_limit",scale = 13,precision = 2)
     private BigDecimal limit;
 
+    public Account(){}
     public Account(String number, String agency, BigDecimal balance, BigDecimal limit) {
         this.number = number;
         this.agency = agency;
