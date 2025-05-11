@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://root:AMVKxTJEkMBzQSKkvaodaBSsZbtABrLI@yamabiko.proxy.rlwy.net:25983/railway # Utiliza a URL pública do banco de dados
+    username: ${MYSQLUSER}  # Nome de usuário
+    password: ${MYSQLPASSWORD}  # Senha
+
+  jpa:
+    hibernate:
+      ddl-auto: update  # Configuração para atualizar o banco de dados automaticamente
+      dialect: org.hibernate.dialect.MySQL8Dialect  # Dialeto do Hibernate para MySQL 8.x
+    show-sql: true  # Exibir as queries SQL no log
