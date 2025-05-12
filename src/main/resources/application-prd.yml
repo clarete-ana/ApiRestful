@@ -10,4 +10,4 @@ spring:
       dialect: org.hibernate.dialect.MySQL8Dialect  # Dialeto do Hibernate para MySQL 8.x
     show-sql: true  # Exibir as queries SQL no log
     server:
-      port=${PORT:8080}:
+      port: 10000
