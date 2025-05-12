@@ -5,7 +5,7 @@ import io.swagger.v3.oas.annotations.servers.Server;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@OpenAPIDefinition(servers = { @Server(url = "https://apirestful.onrender.com", description = "Render Hosted API")})
+@OpenAPIDefinition(servers = { @Server(url = "https://apirestful-l0cx.onrender.com", description = "Render Hosted API")})
 @SpringBootApplication
 public class ProjetoApiRestApplication {
 
